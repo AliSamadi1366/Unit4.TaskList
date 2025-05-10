@@ -13,6 +13,3 @@ id serial PRIMARY KEY,
   done boolean DEFAULT FALSE NOT NULL,
   user_id integer NOT NULL REFERENCES users(id) ON DELETE CASCADE
 );
-  
-
-
